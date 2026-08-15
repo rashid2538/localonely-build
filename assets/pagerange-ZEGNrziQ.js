@@ -1,0 +1,1 @@
+function e(e,t){let n=new Set;for(let r of e.split(`,`)){let e=r.trim().match(/^(\d+)(?:-(\d+))?$/);if(!e)throw Error(`Invalid page range: "${r.trim()}"`);let i=+e[1],a=e[2]?+e[2]:i;for(let e=Math.min(i,a);e<=Math.max(i,a);e++){if(e<1||e>t)throw Error(`Page ${e} out of range (1–${t})`);n.add(e-1)}}return[...n].sort((e,t)=>e-t)}export{e as t};

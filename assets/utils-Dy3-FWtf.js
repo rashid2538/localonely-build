@@ -1,0 +1,1 @@
+function e(e,t){let n=URL.createObjectURL(e),r=document.createElement(`a`);r.href=n,r.download=t,r.click(),setTimeout(()=>URL.revokeObjectURL(n),1e3)}var t=e=>e.replace(/\.[^.]+$/,``);async function n(e){try{return await navigator.clipboard.writeText(e),!0}catch{return!1}}export{n,e as r,t};

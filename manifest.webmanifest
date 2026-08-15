@@ -1,0 +1,16 @@
+{
+  "name": "LocalForge — Free privacy-first browser tools",
+  "short_name": "LocalForge",
+  "description": "Fast, private tools for files, text, code & images. Your files never leave your device.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#141210",
+  "theme_color": "#ea580c",
+  "lang": "en",
+  "icons": [
+    { "src": "./icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "./icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
